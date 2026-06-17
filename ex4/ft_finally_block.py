@@ -26,7 +26,7 @@ def test_watering_system() -> None:
         print(".. ending tests and returning to main")
     finally:
         print("Closing watering system")
-    print("")
+    print()
 
     print("Testing invalid plants...")
     print("Opening watering system")
@@ -38,12 +38,12 @@ def test_watering_system() -> None:
         print(".. ending tests and returning to main")
     finally:
         print("Closing watering system")
-    print("")
+    print()
 
 
 def main() -> None:
     print("=== Garden Watering System ===")
-    print("")
+    print()
 
     test_watering_system()
 

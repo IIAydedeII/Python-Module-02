@@ -28,14 +28,14 @@ def test_error_types() -> None:
         garden_operations("Plant")
     except PlantError as e:
         print(f"Caught PlantError: {e}")
-    print("")
+    print()
 
     print("Testing WaterError...")
     try:
         garden_operations("Water")
     except WaterError as e:
         print(f"Caught WaterError: {e}")
-    print("")
+    print()
 
     print("Testing catching all garden errors...")
     for name in ["Plant", "Water"]:
@@ -43,12 +43,12 @@ def test_error_types() -> None:
             garden_operations(name)
         except GardenError as e:
             print(f"Caught GardenError: {e}")
-    print("")
+    print()
 
 
 def main() -> None:
     print("=== Custom Garden Errors Demo ===")
-    print("")
+    print()
 
     test_error_types()
 

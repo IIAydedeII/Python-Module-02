@@ -10,7 +10,7 @@ def test_temperature() -> None:
         print(f"Temperature is now {input_temperature(input_str)}°C")
     except ValueError as e:
         print("Caught input_temperature error:", e)
-    print("")
+    print()
 
     input_str = "abc"
     print(f"Input data is '{input_str}'")
@@ -18,12 +18,12 @@ def test_temperature() -> None:
         print(f"Temperature is now {input_temperature(input_str)}°C")
     except ValueError as e:
         print("Caught input_temperature error:", e)
-    print("")
+    print()
 
 
 def main() -> None:
     print("=== Garden Temperature ===")
-    print("")
+    print()
 
     test_temperature()
 

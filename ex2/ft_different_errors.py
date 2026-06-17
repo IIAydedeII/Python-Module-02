@@ -31,7 +31,7 @@ def main() -> None:
     print("=== Garden Error Types Demo ===")
 
     test_error_types()
-    print("")
+    print()
 
     print("All error types tested successfully!")
 
